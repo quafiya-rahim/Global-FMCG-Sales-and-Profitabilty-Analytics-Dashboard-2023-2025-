@@ -55,7 +55,7 @@ Python (Jupyter Notebook):
 - Converted `Order_Date` to proper datetime format.
 - Exported a cleaned CSV for downstream use.
 
-![Image](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/FMCG_Analysis.ipynb)
+[View the FMCG Analysis notebook](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/FMCG_Analysis.ipynb)
   
 Power Query (Power BI):
 - Verified column data types on load (dates, numbers, text).
