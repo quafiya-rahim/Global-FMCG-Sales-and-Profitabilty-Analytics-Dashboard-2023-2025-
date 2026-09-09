@@ -68,7 +68,7 @@ Total Revenue USD - 14.45M | Total Profit USD - 3.31M | Avg Profit Margin % - 19
 1. Is there a seasonal pattern in sales or profit by category?
 Both revenue and profit show a **clear upward trend from 2023 to 2025**, with revenue exhibiting more month-to-month volatility while profit grows more smoothly — suggesting margin stability even as topline revenue fluctuates. A sharp spike is visible toward the end of 2025, warranting further investigation into whether this reflects a genuine seasonal (e.g. festive season) effect or a data artifact.
 
-![Image]("C:\Users\LENOVO\Pictures\Screenshots\Image_1.png") 
+!("C:\Users\LENOVO\Pictures\Screenshots\Image_1.png") 
 
 2. Which regions are profitable on paper but bleeding margin due to discounting?
 Average profit margin is fairly consistent across most regions — North America and South America (20.4%), Europe (20.3%), Asia (20.0%) — but Oceania stands out with a notably lower average margin of 16.6%, despite still generating meaningful revenue. This gap flags Oceania as the region most worth reviewing for discount discipline and cost structure.
