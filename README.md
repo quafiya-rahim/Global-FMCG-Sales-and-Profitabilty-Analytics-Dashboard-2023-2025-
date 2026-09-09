@@ -3,8 +3,11 @@
 Dashboard:
 
 ![Image](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/Overview.png)
+
 ![Image](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/Profitability%20%26%20Discount%20Analysis.png)
+
 ![Image](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/Marketing%20%26%20Promotion%20Performance.png)
+
 ![Image](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/Customer%20%26%20Sales%20Rep%20Performance.png)
 
 ## 1. Data Overview
@@ -60,46 +63,53 @@ Power Query (Power BI):
 ![Image](https://github.com/quafiya-rahim/Global-FMCG-Sales-and-Profitabilty-Analytics-Dashboard-2023-2025-/blob/main/power_query.png)
 
 
-
 # 3. Key Business Questions & Insights :
 
 Total Revenue USD - 14.45M | Total Profit USD - 3.31M | Avg Profit Margin % - 19.87% | Loss Making Order % - 4.30%
 
 1. Is there a seasonal pattern in sales or profit by category?
-Both revenue and profit show a **clear upward trend from 2023 to 2025**, with revenue exhibiting more month-to-month volatility while profit grows more smoothly — suggesting margin stability even as topline revenue fluctuates. A sharp spike is visible toward the end of 2025, warranting further investigation into whether this reflects a genuine seasonal (e.g. festive season) effect or a data artifact.
 
 ![Image](https://github.com/user-attachments/assets/5a119c3d-ad2a-4e9c-b073-6412111d8520) 
 
+Both revenue and profit show a **clear upward trend from 2023 to 2025**, with revenue exhibiting more month-to-month volatility while profit grows more smoothly — suggesting margin stability even as topline revenue fluctuates. A sharp spike is visible toward the end of 2025, warranting further investigation into whether this reflects a genuine seasonal (e.g. festive season) effect or a data artifact.
+
 
 2. Which regions are profitable on paper but bleeding margin due to discounting?
+
+![Image](https://github.com/user-attachments/assets/c140bfb3-510f-4ebe-ace8-0f18eebe5288)
+
 Average profit margin is fairly consistent across most regions — North America and South America (20.4%), Europe (20.3%), Asia (20.0%) — but Oceania stands out with a notably lower average margin of 16.6%, despite still generating meaningful revenue. This gap flags Oceania as the region most worth reviewing for discount discipline and cost structure.
 
-![Image](https://github.com/user-attachments/assets/24699402-e84d-46d9-a83f-fcf4f02d8821)
-
 3. Which product category has the best discount efficiency (revenue generated per % of discount given)?
+
+![Image](https://github.com/user-attachments/assets/aba3e225-af77-4b48-b90c-eeaa4063b2cd)
+
 Beverages generates the highest revenue per unit of discount ($287.05K), ahead of Household ($241.32K), Personal Care ($215.74K), Snacks ($195.47K), and Dairy & Breakfast ($176.51K). This is a notable tension with Q2's finding — Beverages is the most discount-efficient category in terms of raw revenue generation, yet has the weakest marketing ROI and among the lowest margins. This suggests Beverages sales are volume/discount-driven rather than margin-driven, and warrants a distinct commercial strategy from higher-margin categories like Personal Care.
 
-![Image](https://github.com/user-attachments/assets/24699402-e84d-46d9-a83f-fcf4f02d8821)
-
 4. Does higher marketing spend translate into higher profit, or are we overspending on already-strong products?
+
+![Image](https://github.com/user-attachments/assets/ad3d43dc-d0b8-4868-bfc1-c9eb99832b06)
+
 Marketing ROI varies significantly by category:Personal Care (269.2%) and Dairy & Breakfast (269.1%) deliver the strongest returns — nearly $2.70 profit per $1 spent — while Beverages lags at just 121.3%, despite likely receiving a large share of the marketing budget. This suggests marketing spend on Beverages is far less efficient than on other categories, and reallocating budget toward Personal Care and Dairy & Breakfast could improve overall marketing ROI.
 
-![Image](https://github.com/user-attachments/assets/24699402-e84d-46d9-a83f-fcf4f02d8821)
 
 5. Which promotion types drive volume vs which ones destroy margin?
-No Promo periods drive by far the highest sales volume (~1.5M+ units) — nearly 3x any active promotion — while also maintaining a strong ~22% margin, indicating baseline demand is not primarily promotion-driven.Loyalty Cashback** is a standout: low volume, but margin (~22%) nearly matching No Promo, suggesting it targets high-value repeat customers rather than mass discount-seekers. **Festival Campaign and Flash Discount promotions show the highest loss-making order counts (142 and 155 respectively) and the lowest margins (~15%), making them the least profitable promotion types despite their popularity.
 
-![Image](https://github.com/user-attachments/assets/24699402-e84d-46d9-a83f-fcf4f02d8821)
+![Image](https://github.com/user-attachments/assets/2bafacb1-c8da-4a2f-adb0-365363ca8411)
+
+No Promo periods drive by far the highest sales volume (~1.5M+ units) — nearly 3x any active promotion — while also maintaining a strong ~22% margin, indicating baseline demand is not primarily promotion-driven.Loyalty Cashback is a standout: low volume, but margin (~22%) nearly matching No Promo, suggesting it targets high-value repeat customers rather than mass discount-seekers.Festival Campaign and Flash Discount promotions show the highest loss-making order counts (142 and 155 respectively) and the lowest margins (~15%), making them the least profitable promotion types despite their popularity.
 
 6. Is B2B or B2C more profitable, and does channel strategy align with that?
+
+![Image](https://github.com/user-attachments/assets/d8ddaede-cfae-4cd7-832e-f659d93fbdf9) ![Image](https://github.com/user-attachments/assets/6ae547e1-8c3c-4642-991b-ba342a2d1c60)
+
 B2B is significantly more profitable per order: average order value of $1,190.9 vs.$389.7 for B2C, with a higher average margin (23.7% vs 16.0%) despite receiving a deeper average discount (16.1% vs 9.7%). This shows B2B customers generate far more value per transaction even after accounting for larger negotiated discounts — reinforcing that channel strategy should continue prioritizing B2B relationship growth.
 
-![Image](https://github.com/user-attachments/assets/24699402-e84d-46d9-a83f-fcf4f02d8821)
-
 7. Which sales reps are top revenue generators but poor on profit margin?
-Across the top 20 sales reps by revenue, no clear "high revenue, low margin" pattern emerged. Top performers like Oliver Kent ($6.66L revenue, 20.44% margin), Charlotte Ellis ($6.08L, 19.73%), and Amelia Rhodes ($6.05L, 20.26%) all maintain healthy margins alongside high revenue. Conversely, reps with lower margins (Ethan Cole 16.51%, Mia Sutton 16.23%) also have comparatively lower revenue — meaning they aren't over-discounting to chase deal size. This is a positive finding: **top-performing reps maintain margin discipline rather than sacrificing profitability for volume.**
 
-![Sales Rep Performance](images/sales_rep_performance.png)
+![Image](https://github.com/user-attachments/assets/86883097-9bb5-4e4d-87e7-42a6106bf952) ![Image](https://github.com/user-attachments/assets/4115ac9c-8366-422c-812f-bfacf29fdf62)
+
+Across the top 20 sales reps by revenue, no clear "high revenue, low margin" pattern emerged. Top performers like Oliver Kent ($6.66L revenue, 20.44% margin), Charlotte Ellis ($6.08L, 19.73%), and Amelia Rhodes ($6.05L, 20.26%) all maintain healthy margins alongside high revenue. Conversely, reps with lower margins (Ethan Cole 16.51%, Mia Sutton 16.23%) also have comparatively lower revenue — meaning they aren't over-discounting to chase deal size. This is a positive finding:top-performing reps maintain margin discipline rather than sacrificing profitability for volume.
 
 
 # Overall Conclusion
@@ -115,9 +125,13 @@ Across the top 20 sales reps by revenue, no clear "high revenue, low margin" pat
 # Final Recommendations:
 
 ✅ Reallocate a portion of Beverages' marketing budget toward Personal Care and Dairy & Breakfast, where ROI is more than double.
+
 ✅ Review discounting practices in Festival Campaign and Flash Discount promotions to reduce loss-making order volume.
+
 ✅ Investigate Oceania's lower regional margin — likely driven by discount or cost-structure differences versus other regions.
+
 ✅ Continue prioritizing B2B account growth given its outsized profitability per order.
+
 ✅ Further investigate the late-2025 revenue spike to confirm whether it reflects genuine seasonality worth planning around.
 
 
